@@ -51,25 +51,50 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    gap: 10px
+    gap: 18px;
 }
 
 
 
-.card-1 {
+.card {
     font-size: 14px;
-    width: 600px;
-    height: 350px;
+    width: 300px;
+    height: 400px;
     padding: 10px;
-    background-color: azure;
+    background-color: rgb(247, 246, 248);
     border-radius: 20px;
+    line-height: 30px;
+    box-shadow: 0 2px 20px rgba(17, 17, 17, 0.8);
 }
+
+.card:active {
+    background-color: blueviolet;
+
+}
+
+.chose-plan {
+    background-color: blueviolet;
+    color: rgb(196, 156, 248);
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+    width: 170px;
+}
+
+.chose-plan:hover {
+    background-color: #ffffff;
+    transform: translateY(2px);
+    box-shadow: 0 2px 20px rgba(17, 17, 17, 0.8);
+}
+
 .plan-name {
     font-size: x-large;
 }
-.under-plan  {
+
+.under-plan {
     font-size: 12px;
-    color: grey;
+    color: rgb(183, 162, 223);
 }
 
 .price {
@@ -79,11 +104,13 @@ body {
 .number {
     font-size: x-large;
 }
+
 .mese {
     font-size: 12px;
-    color: grey;
-    
+    color: rgb(183, 162, 223);
+
 }
+
 .offerta {
     display: flex;
 }
@@ -101,20 +128,35 @@ li {
 }
 
 
-.card-2 {
-    width: 600px;
-    height: 350px;
-    padding: 10px;
-    background-color: azure;
-    border-radius: 20px;
 
+.card-2 {
+    font-size: 14px;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    line-height: 30px;
+    box-shadow: 0 2px 20px rgba(17, 17, 17, 0.8);
+}
+
+.card-2:active {
+    background-color: rgb(247, 246, 248);
 
 }
 
-.card-3 {
-    width: 600px;
-    height: 350px;
-    padding: 10px;
-    background-color: azure;
-    border-radius: 20px;
+.chose-plan2 {
+    background-color: white;
+    color: rgb(70, 47, 92);
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+    width: 170px;
+}
+
+.chose-plan2:hover {
+    background-color: blueviolet;
+    transform: translateY(2px);
+    box-shadow: 0 2px 20px rgba(17, 17, 17, 0.8);
 }
