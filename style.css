@@ -13,6 +13,7 @@ body {
     position: relative;
 
 
+
 }
 
 /*header*/
@@ -23,7 +24,9 @@ body {
     width: 1000px;
     height: 150px;
     padding: 14px;
-    gap: 100px
+    gap: 100px;
+    flex-wrap: wrap;
+
 }
 
 .bt {
@@ -32,6 +35,7 @@ body {
     width: 20px;
     height: 20px;
     text-align: center;
+
 }
 
 .titolo {
@@ -50,7 +54,18 @@ body {
     display: flex;
     justify-content: center;
     gap: 18px;
+    flex-wrap: wrap;
 
+    align-items: stretch;
+    min-width: 350px;
+    flex-shrink: 0;
+
+
+
+}
+
+.button {
+    margin: 0 auto;
 }
 
 .card {
@@ -62,7 +77,8 @@ body {
     border-radius: 20px;
     line-height: 30px;
     box-shadow: 0 2px 20px rgba(17, 17, 17, 0.8);
-    
+    flex-grow: 2;
+
 }
 
 .card:active {
@@ -78,7 +94,7 @@ body {
     border: none;
     font-size: 12px;
     width: 170px;
-    
+
 }
 
 .chose-plan:hover {
@@ -114,7 +130,7 @@ body {
 
 .offerta {
     display: flex;
-    gap:10px;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -129,7 +145,7 @@ ul {
 
 li {
     display: flex;
-    
+
 
 }
 
@@ -142,7 +158,9 @@ li {
     border-radius: 20px;
     line-height: 30px;
     box-shadow: 0 2px 20px rgba(17, 17, 17, 0.8);
-    
+    flex-basis: calc(100%/3(18*4)/3);
+
+
 }
 
 .card-2:active {
