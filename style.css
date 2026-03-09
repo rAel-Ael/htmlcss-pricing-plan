@@ -7,8 +7,10 @@
 body {
     margin: 0 auto;
     width: 100%;
-    justify-content: center;
-    max-width: 600px;
+    height: 100%;
+    padding: 0 100px;
+    align-items: center;
+    font-family: sans-serif;
     position: relative;
 
 
@@ -18,63 +20,101 @@ body {
 
 .titlepage {
     display: flex;
-    max-width: 600px;
-    max-height: 600px;
+    width: 700px;
+    height: 150px;
     padding: 14px;
+    justify-content: center;
 
 }
 
 .bt {
     display: flex;
     gap: 4px;
-    width: 6px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
 }
 
-.titolo {
-    font-family: sans-serif;
 
+
+.titolo {
+    justify-content: center;
 }
 
 .undertext {
     font-size: 12px;
     color: grey;
-    font-family: sans-serif;
+
 }
 
 /*card*/
 
 .container {
     display: flex;
-
-    
-
-
+    justify-content: center;
+    gap: 10px
 }
+
+
 
 .card-1 {
-  
-    width: 400px;
-    height: 500px;
-    max-width: 600px;
-    max-height: 800px;
-
+    font-size: 14px;
+    width: 600px;
+    height: 350px;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 20px;
+}
+.plan-name {
+    font-size: x-large;
+}
+.under-plan  {
+    font-size: 12px;
+    color: grey;
 }
 
-.card-2 {
+.price {
+    display: flex;
+}
 
-    width: 400px;
-    height: 500px;
-    max-width: 600px;
-    max-height: 800px;
+.number {
+    font-size: x-large;
+}
+.mese {
+    font-size: 12px;
+    color: grey;
+    
+}
+.offerta {
+    display: flex;
+}
+
+.sconto {
+    background-color: grey;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+}
+
+
+.card-2 {
+    width: 600px;
+    height: 350px;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 20px;
+
 
 }
 
 .card-3 {
-
-    width: 400px;
-    height: 500px;
-    max-width: 600px;
-    max-height: 800px;
-
+    width: 600px;
+    height: 350px;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 20px;
 }
