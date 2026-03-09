@@ -28,6 +28,7 @@ body {
     padding: 14px;
     gap: 100px;
     flex-wrap: wrap;
+    /*per andare a capo*/
 
 }
 
@@ -73,7 +74,7 @@ body {
     border-radius: 20px;
     line-height: 30px;
     box-shadow: 0 2px 20px rgba(17, 17, 17, 0.8);
-    flex-basis: calc(100%/3(18*4)/3);
+    /*calcolo non so se e' giustissimo, messo in tutte le card */
     flex-basis: calc(100%/3(18*4)/3);
     flex-grow: 1;
     flex-shrink: 1;
